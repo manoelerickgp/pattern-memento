@@ -1,6 +1,6 @@
 package mementoCopo;
 
-// Memento: Representa o estado capturado do objeto
+// MementoEditor.Memento: Representa o estado capturado do objeto
 class EstadoCopo {
 
     private String nivelAgua;

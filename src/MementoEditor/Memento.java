@@ -1,5 +1,6 @@
+package MementoEditor;
 
-// Memento: Representa o estado capturado do objeto
+// MementoEditor.Memento: Representa o estado capturado do objeto
 public class Memento {
 
     private String estado;

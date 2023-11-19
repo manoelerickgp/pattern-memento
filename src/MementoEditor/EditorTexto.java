@@ -1,3 +1,4 @@
+package MementoEditor;
 
 // Originator: Cria e restaura o estado do objeto
 public class EditorTexto {
