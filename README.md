@@ -4,6 +4,7 @@ DESIGN PATTERN MEMENTO
 
 Memento quer dizer lembrança, o padrão de projeto memento é um padrão comportamental que permite armazenar e restaurar o estado de um objeto sem violar o seu encapsulamento. Ele é útil quando se quer permitir que o usuário desfaça ou refaça alguma operação, ou quando se quer salvar o estado de um objeto para uso posterior. 
 
+
   
 Elementos: 
 
@@ -19,6 +20,7 @@ O Memento é o objeto que armazena o estado interno do Originator. Ele é imutá
 
 O Caretaker é responsável por armazenar e gerenciar objetos Memento. Ele não sabe nada sobre o estado interno do Memento ou do Originator. Ele simplesmente armazena e recupera os estados. 
 
+
   
 Aplicabilidades: 
 
@@ -27,6 +29,7 @@ Aplicabilidades:
 -> O padrão memento também pode ser usado em sistemas que precisam salvar o estado de um objeto para uso posterior, como navegadores web, calculadoras, etc. 
 
 -> O padrão memento pode ser combinado com outros padrões de projeto, como o comando, o observador e o iterador, para aumentar a flexibilidade e a eficiência do sistema. 
+
 
  
 Vantagens: 
